@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is just a small little script I whipped up to archive hyperlinks found in HTML pages using standard Linux utilities.
+This is just a small little script I whipped up to archive hyperlinks found in HTML and Markdown pages using standard Linux utilities.
 
 It's not 100% perfect; I suspect more work will be needed on regex used, but it seems to work fine.
 
