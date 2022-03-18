@@ -7,7 +7,7 @@ url=""
 
 for file in $files
 do
-	url=$url$(grep --only-matching "https://[a-zA-Z0-9.?=%:_-/]*" $file)
+	url=$url$(grep --only-matching "https://[a-zA-Z0-9./?=_%:-]*" $file)
 done
 
 url=$(echo -e $url | tr " " '\n' | sort -u)
