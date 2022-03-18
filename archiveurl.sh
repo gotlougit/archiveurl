@@ -2,7 +2,7 @@
 
 # A small script to automatically archive webpages liked to in webpages
 
-files=$(ls -1 | grep .html)
+files=$(ls -1 *.html *.md)
 url=""
 
 for file in $files
