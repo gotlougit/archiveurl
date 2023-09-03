@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-# A small script to automatically archive webpages liked to in webpages
+# A small script to automatically archive webpages linked to in Markdown 
+# and HTML documents
 
 files=$(ls -1 ./*.html ./*.md)
 url=""
