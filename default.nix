@@ -9,9 +9,12 @@ stdenv.mkDerivation {
     curl
   ];
 
+  buildPhase = ''
+    chmod +x archiveurl
+  '';
+
   installPhase = ''
     mkdir -p $out/bin
-    chmod +x archiveurl
     mv archiveurl $out/bin/archiveurl
   '';
 
